@@ -1,7 +1,0 @@
-﻿  Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-D:\Development\chromatic\examples\example_win32_directx11\destruct.cpp(54): warning C4701: potentially uninitialized local variable 'returnme' used
-D:\Development\chromatic\examples\example_win32_directx11\destruct.cpp(100): warning C4706: assignment within conditional expression
-  All 1915 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  example_win32_directx11.vcxproj -> D:\Development\chromatic\examples\example_win32_directx11\Release\example_win32_directx11.exe
