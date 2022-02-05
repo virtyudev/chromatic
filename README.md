@@ -1,2 +1,3 @@
 # chromatic
-minecraft memory hack ghost client cheatbreaker blc and forge
+all of u dumbasses that swear up and down its a rat can go ahead and look for urself
+everyone else enjoy
