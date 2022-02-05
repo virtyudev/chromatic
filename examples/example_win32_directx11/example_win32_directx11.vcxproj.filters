@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\client">
+      <UniqueIdentifier>{f99e53f6-2e91-4c46-b3ef-4c1944f25111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\modules">
+      <UniqueIdentifier>{76b48e57-4ec7-4b60-aa55-818399938a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\modules\main">
+      <UniqueIdentifier>{1078f913-7f55-4cc7-8057-3de3b2f17581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\modules\misc">
+      <UniqueIdentifier>{37201cec-d784-4a9f-be7b-755bd72d2454}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="definitions.cpp">
+      <Filter>sources\client</Filter>
+    </ClCompile>
+    <ClCompile Include="binds.cpp">
+      <Filter>sources\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="clicker.cpp">
+      <Filter>sources\modules\main</Filter>
+    </ClCompile>
+    <ClCompile Include="reach.cpp">
+      <Filter>sources\modules\main</Filter>
+    </ClCompile>
+    <ClCompile Include="destruct.cpp">
+      <Filter>sources\modules\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>sources\client</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>sources\modules\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="velocity.cpp">
+      <Filter>sources\modules\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
